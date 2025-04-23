@@ -2,7 +2,7 @@
 # Read the contents of the netstat.txt file, which looks like the INPUT below.
 # Then create the result as shown under OUTPUT, where the result is a JSON object
 # where you first group by Protocol, then by Local Address (without port), and
-# then list all of the connections from that local address formatted as shown
+# then list all of the connections from that local address formatted as shown.
 #
 # INPUT:
 #
