@@ -1,0 +1,150 @@
+{
+  "source" : ["localhost", "172.23.156.196"],
+  "destination": ["nintendo.co.jp", "76.223.57.182"],
+  "time" : "2025-03-23T15:54:15-0700",
+  "hops": [
+    {
+      "host": "172.23.144.1",
+      "packets": {
+        "loss": 12.5,
+        "sent": 8
+      },
+      "pings": {
+        "last": 0.2,
+        "ave": 0.3,
+        "best": 0.2,
+        "worst": 0.5,
+        "stdDev": 0.1
+      }
+    },
+    {
+      "host": "10.250.30.1",
+      "packets": {
+        "loss": 20.0,
+        "sent": 8
+      },
+      "pings": {
+        "last": 3.6,
+        "ave": 4.0,
+        "best": 3.6,
+        "worst": 6.0,
+        "stdDev": 0.8
+      }
+    },
+    {
+      "host": "te-0-0-0-27-0-10.er01.lax01.riotdirect.net",
+      "packets": {
+        "loss": 0.0,
+        "sent": 8
+      },
+      "pings": {
+        "last": 4.5,
+        "ave": 8.5,
+        "best": 4.0,
+        "worst": 38.9,
+        "stdDev": 12.3
+      }
+    },
+    {
+      "host": "ae1.er02.lax01.riotdirect.net",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 4.1,
+        "ave": 12.5,
+        "best": 4.1,
+        "worst": 62.1,
+        "stdDev": 21.9
+      }
+    },
+    {
+      "host": "206.72.211.146.any2ix.coresite.com",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 4.1,
+        "ave": 13.9,
+        "best": 4.1,
+        "worst": 59.5,
+        "stdDev": 20.3
+      }
+    },
+    {
+      "host": "52.93.92.40",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 4.1,
+        "ave": 7.4,
+        "best": 4.1,
+        "worst": 23.4,
+        "stdDev": 7.1
+      }
+    },
+    {
+      "host": "52.93.92.49",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 50.2,
+        "ave": 29.1,
+        "best": 18.0,
+        "worst": 50.2,
+        "stdDev": 13.1
+      }
+    },
+    {
+      "host": ""
+    },
+    {
+      "host": "52.93.92.33",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 4.6,
+        "ave": 12.8,
+        "best": 4.1,
+        "worst": 45.5,
+        "stdDev": 15.3
+      }
+    },
+    {
+      "host": "52.93.92.155",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 6.1,
+        "ave": 36.9,
+        "best": 4.7,
+        "worst": 107.1,
+        "stdDev": 40.2
+      }
+    },
+    {
+      "host": "a8e1d94f26b1cf33b.awsglobalaccelerator.com",
+      "packets": {
+        "loss": 0.0,
+        "sent": 7
+      },
+      "pings": {
+        "last": 3.8,
+        "ave": 6.7,
+        "best": 3.6,
+        "worst": 16.0,
+        "stdDev": 5.1
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "devices": [
+    {
+      "template": "R1",
+      "name": "R3",
+      "bgpasn": "65002"
+    },
+    {
+      "template": "R1",
+      "name": "R4",
+      "bgp_neighbors": [
+        {
+          "ip": "10.0.0.3",
+          "remote_as": "65002"
+        }
+      ]
+    },
+    {
+      "template": "R2",
+      "name": "R5",
+      "interfaces": [
+        {
+          "name": "Ethernet2/2",
+          "state": "enabled",
+          "ip": "10.0.0.3",
+          "mask": "255.255.255.0",
+          "qos_policy": "SHAPE_200MB"
+        }
+      ]
+    },
+    {
+      "template": "R2",
+      "name": "R6",
+      "bgpasn": "65003"
+    }
+  ]
+}

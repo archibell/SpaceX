@@ -1,0 +1,5 @@
+Active Connections
+Proto  Local Address          Foreign Address        State
+{% for conn in Connections -%}
+{{ "{:6}".format(conn.Proto) }} {{ "{:22}".format(conn.LocalIP + ":" + conn.LocalPort) }} {{ "{:22}".format(conn.ForeignIP + ":" + conn.ForeignPort) }} {{ conn.State }}
+{% endfor %}
