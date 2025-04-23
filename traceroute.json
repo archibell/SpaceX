@@ -32,34 +32,6 @@
       }
     },
     {
-      "host": "te-0-0-0-27-0-10.er01.lax01.riotdirect.net",
-      "packets": {
-        "loss": 0.0,
-        "sent": 8
-      },
-      "pings": {
-        "last": 4.5,
-        "ave": 8.5,
-        "best": 4.0,
-        "worst": 38.9,
-        "stdDev": 12.3
-      }
-    },
-    {
-      "host": "ae1.er02.lax01.riotdirect.net",
-      "packets": {
-        "loss": 0.0,
-        "sent": 7
-      },
-      "pings": {
-        "last": 4.1,
-        "ave": 12.5,
-        "best": 4.1,
-        "worst": 62.1,
-        "stdDev": 21.9
-      }
-    },
-    {
       "host": "206.72.211.146.any2ix.coresite.com",
       "packets": {
         "loss": 0.0,
